@@ -1,0 +1,82 @@
+{
+  "url": "https://ptxtrimble.com/de",
+  "sanitizedPath": "/de",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id--1817575403",
+              "x": 0,
+              "y": 0,
+              "width": 2899,
+              "height": 48,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/nav[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.4)",
+              "mapping": "header",
+              "customBlockName": "aiheader"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/de",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id--1653070782",
+              "x": 0,
+              "y": 105,
+              "width": 2899,
+              "height": 878,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/section[1]/section[1]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"page-content\")/section[@class=\"luna-full-background-hero luna-full-background-hero-variant-3 undefined luna-full-background-hero--no-transition luna-full-background-hero--product\"]/div[@class=\"luna-full-background-hero__content-wrapper luna-full-background-hero__content-wrapper-variant-3 css-1c2fuzs\"]/div[@class=\"luna-full-background-hero__content-wrapper-grid luna-full-background-hero__content-wrapper-grid-variant-3\"]/div[@class=\"luna-full-background-hero__content-wrapper-left luna-full-background-hero__content-wrapper-left-variant-3 luna-full-background-hero__white-bg luna-full-background-hero__content-wrapper-left-variant-3--full luna-full-background-hero__content-wrapper-left--no-bottom-margin\"]/div[@class=\"cta-container null transparent-light-text undefined\"]/div[@class=\"header\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"page-content\")/section[@class=\"luna-full-background-hero luna-full-background-hero-variant-3 undefined luna-full-background-hero--no-transition luna-full-background-hero--product\"]/div[@class=\"luna-full-background-hero__content-wrapper luna-full-background-hero__content-wrapper-variant-3 css-1c2fuzs\"]/div[@class=\"luna-full-background-hero__content-wrapper-grid luna-full-background-hero__content-wrapper-grid-variant-3\"]/div[@class=\"luna-full-background-hero__content-wrapper-left luna-full-background-hero__content-wrapper-left-variant-3 luna-full-background-hero__white-bg luna-full-background-hero__content-wrapper-left-variant-3--full luna-full-background-hero__content-wrapper-left--no-bottom-margin\"]/div[@class=\"cta-container null transparent-light-text undefined\"]/div[@class=\"cta-buttons false cta-buttons--null\"]"
+                }
+              ],
+              "color": "rgba(75, 0, 130, 0.4)",
+              "mapping": "hero",
+              "customBlockName": "aihero"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
